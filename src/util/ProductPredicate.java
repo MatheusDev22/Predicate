@@ -4,7 +4,7 @@ import java.util.function.Predicate;
 
 import entiti.Product;
 
-public class ProductPredicate implements Predicate<Product>{
+public class ProductPredicate implements Predicate<Product>{// inteface funcional
 
 	@Override
 	public boolean test(Product p) {
